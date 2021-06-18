@@ -1,4 +1,4 @@
-FROM node:14.3-alpine3.11
+FROM arm32v7/node:14.17-alpine3.13
 
 COPY . .
 RUN npm install --only=prod
